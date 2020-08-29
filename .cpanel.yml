@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fiqt2725/public_html/
+    - /bin/cp -R keuangan $DEPLOYPATH
